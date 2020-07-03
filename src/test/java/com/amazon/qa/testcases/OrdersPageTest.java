@@ -29,7 +29,7 @@ public class OrdersPageTest extends TestBase{
 	@Test(priority=1)
 	public void verifyOrdersPage() 
 	{
-		Assert.assertEquals(orders.verifyOrderTitle(), "Your Orders 1");
+		Assert.assertEquals(orders.verifyOrderTitle(), "Your Orders 2");
 	}
 
 	
